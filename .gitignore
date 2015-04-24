@@ -188,3 +188,7 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+
+# Compiled Nuget Packages (these can be rebuilt from source)
+*.nupkg

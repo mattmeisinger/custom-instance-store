@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Neo4jWorkflowInstanceStore")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CustomInstanceStore")]
+[assembly: AssemblyDescription("Easily use any data repository for Windows Workflow Foundation persistence. Just create a instance store class that inherits from the CustomInstanceStoreBase abstract class and implement the Save() and Load() methods.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Neo4jWorkflowInstanceStore")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyProduct("CustomInstanceStore")]
+[assembly: AssemblyCopyright("Copyright © Matt Meisinger 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.9.0.0")]
+[assembly: AssemblyFileVersion("0.9.0.0")]
