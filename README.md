@@ -1,25 +1,31 @@
 # Getting Started
 ## What is a CustomInstanceStore?
 
-By default, the only way to use long-running workflows (i.e. waiting for email approval) in Windows Workflow Foundation is to connect it to a SQL Server so it can save the state of the instances. Want it to save the workflow state to an XML file? To a MySQL database? That is not so easy.
-
 CustomInstanceStore is an abstraction over InstanceStore that makes it easy to create persistence providers for Windows Workflow Foundation.
+
+By default, the only way to use long-running workflows in Windows Workflow Foundation is to connect it to a SQL Server. For instance, in an email approval workflow, it will save the state of the workflow instance to SQL Server, then load it back when the approval bookmark is triggered in the workflow. 
+
+Want it to save the workflow state to an XML file? To a MySQL database? That is not so easy.
+
+CustomInstanceStore solves this.
+
+
+## Installation
+
+NuGet:
+
+    package-install CustomInstanceStore
 
 
 ## What types of providers are included in this library?
 
 - XML
 - MemoryCache (useful for testing)
-- Neo4j (separate library)
 
 
-## Installation
+## Other libraries
 
-In Nuget:
-
-    package-install CustomInstanceStore
-
-	package-install CustomInstanceStore.Neo4j
+- [Neo4j](https://github.com/mattmeisinger/custom-instance-store-neo4j)
 
 
 ## What versions of WF does this support?
