@@ -12,7 +12,7 @@ CustomInstanceStore solves this.
 
 ## Installation
 
-NuGet:
+[NuGet](https://www.nuget.org/packages/CustomInstanceStore)
 
     package-install CustomInstanceStore
 
@@ -69,7 +69,7 @@ See [this MSDN article](https://msdn.microsoft.com/en-us/library/ee342461.aspx) 
 ## What types of providers are included in this library?
 
 - XML
-- MemoryCache (useful for testing)
+- [MemoryCache](blob/master/CustomInstanceStore/MemoryCacheInstanceStore.cs) (useful for testing)
 
 
 ## Other libraries
